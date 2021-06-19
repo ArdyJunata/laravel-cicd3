@@ -23,4 +23,4 @@ jobs:
           server: ${{ secrets.FTP_SITE_SERVER }}
           username: ${{ secrets.FTP_SITE_USERNAME }}
           password: ${{ secrets.FTP_SITE_PASSWORD }}
-          state-name: /
+          state-name: ./
