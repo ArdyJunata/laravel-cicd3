@@ -23,4 +23,3 @@ jobs:
           server: ${{ secrets.FTP_SITE_SERVER }}
           username: ${{ secrets.FTP_STAFF_USERNAME }}
           password: ${{ secrets.FTP_STAFF_PASSWORD }}
-          exclude: **/.github/**
